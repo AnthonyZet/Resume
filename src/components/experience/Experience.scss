@@ -23,6 +23,7 @@
 .btn-cover{
     display: flex;
     justify-content: center;
+    margin-top: 5vw;
 }
 
 
@@ -61,14 +62,23 @@
     font-size: 7vw;
 }
 
-@media screen and (max-width: 680px){
-    .hero-container{
-        width: 70vw;
-        height: 70vw;
+@media screen and (max-width: 1080px){
+.expCover p{
+    font-size: 1.4vw;
+}
+}
+
+@media screen and (max-width: 600px){
+    .container .card-container{
+        grid-template-columns: repeat(2, 1fr);
     }
-    
-    .heroTextCover h2{
-        font-size: 16vw;
-        
+    .card .icon{
+        font-size: 18vw;
+    }
+    .expCover h2{
+        font-size: 4vw;
+    }
+    .expCover p{
+        font-size: 2.5vw;
     }
 }
