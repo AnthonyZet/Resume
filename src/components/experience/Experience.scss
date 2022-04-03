@@ -1,0 +1,77 @@
+@import '../../Mixins.scss';
+
+.experience .container{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-color: rgb(0, 0, 0);
+}
+
+.container .card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1rem;
+   
+}
+
+.container .title{
+    text-align: center;
+    color: #5F86CE;
+    text-shadow: 2px 2px 0px #000000, 5px 4px 0px rgba(0,0,0,0.15);
+}
+
+.btn-cover{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.card{
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    @include background;
+    @include boxShadow;
+    
+     margin: 1vw;
+    &:hover{
+        transform: scale(1.05);
+        transition: 0.4s ease-in-out;
+    }
+    
+}
+
+.expCard-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 1vw;
+   
+    & div{
+        text-align: right;
+       align-content: center;
+    }
+}
+
+.expCover h2{
+    font-size: 2.5vw;
+}
+
+.card .icon{
+    font-size: 7vw;
+}
+
+@media screen and (max-width: 1100px){
+    .container .card-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*
+    .card .icon{
+        font-size: 6vw;
+    }
+    .expCover h2,
+    .expCover p{
+        font-size:70%;
+    }*/
+}
