@@ -47,17 +47,17 @@
     align-content: center;
     justify-content: center;
     z-index: -1;
+    align-items: center;
 }
 
-.heroTextCover{
-    align-items: center;
-    z-index: -1;
-   
-}
 
 .heroTextCover h2{
     font-size: 5rem;
     color: #b7a302;
     z-index: -1;
     text-shadow: 3px 5px 2px #474747;
+}
+
+@media screen and (max-width: 1100px){
+    .heroTextCover h2{}
 }
