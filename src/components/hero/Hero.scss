@@ -70,3 +70,23 @@
         
     }
 }
+
+@media screen and (max-height: 860px){
+    .hero-container{
+        top: 50%;
+        width: 60vh;
+        height: 50vh;
+    }
+    .heroTextCover h2{
+        font-size: 9vh;
+    }
+}
+
+@media screen and (max-height: 460px){
+    .hero-container{
+        top: 80%;
+        width: 60vh;
+        height: 60vh;
+    }
+  
+}
