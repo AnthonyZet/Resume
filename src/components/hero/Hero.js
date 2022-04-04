@@ -1,7 +1,7 @@
 import React from 'react'
 import MainVideo from '../../assets/back.jpg'
 import HeroText from './HeroText'
-import LightSpeed from 'react-reveal/LightSpeed';
+
 import './Hero.scss'
 
 const Hero = () => {

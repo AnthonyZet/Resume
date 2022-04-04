@@ -73,3 +73,29 @@
       font-size: 2rem;
   }
 }
+
+.navbar ul li a {
+    &:link,
+    &:visited {
+        display: inline-block;
+       
+        font-weight: 300;
+        padding: 1rem 2rem;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right, black,indigo,green,blue,rgb(0, 41, 130),rgb(25, 108, 160),yellow);
+       // background-image: linear-gradient(120deg, transparent 0%, transparent 50%, rgb(249, 246, 246) 50%);
+        background-size: 250%;
+        transition: all .4s;
+
+    
+    }
+    
+    &:hover,
+    &:active {
+        background-position: 100%;
+        color: black;
+        transform: translateX(1rem);
+    }
+}

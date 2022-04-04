@@ -6,7 +6,7 @@ class LightSpeedExample extends React.Component {
     return (
       <div>
         <LightSpeed left cascade>
-          <div className='heroTextCover'>
+          <div className='heroTextCover content'>
             <h2>Crypto</h2>
             <h2>Or</h2>
             <h2>Nothing</h2>
