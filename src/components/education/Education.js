@@ -10,15 +10,15 @@ import Tre from './../../assets/4normal.jpg'
         render() {
   return (
     <div>
-    <Parallax className='image' bgImage={Tre} strength={200}>
-        <div className="backgroundTR">
-       
+
+         <Parallax className='image' bgImage={Tre} strength={200}>
+         <div className="backgroundTR">
             <div className="container-grid content">
             <Roll left>
                 <div className="items-a">
                 <Roll left cascade>
                     <div className="box item1">
-                        <h2>Vzdělání</h2>
+                        <h2>Education</h2>
                         <p>2013-2015</p>
                         <p>Highschool of economics and tourism Rantířovská 9 Jihlava</p>
                         <br></br>
@@ -70,9 +70,10 @@ import Tre from './../../assets/4normal.jpg'
                
             </div>
     
-        </div>
-    </Parallax>
-    </div>
+            </div>
+     </Parallax>
+    
+ </div>
 
   )
 }

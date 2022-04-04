@@ -3,6 +3,7 @@
 .experience .container{
     width: 100%;
     min-height: 100vh;
+    max-height: 1080px;
     object-fit: cover;
     background-color: rgb(0, 0, 0);
 }
@@ -62,10 +63,16 @@
     font-size: 7vw;
 }
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1080px){ 
 .expCover p{
     font-size: 1.4vw;
 }
+}
+
+@media screen and (max-width: 900px){
+    .container .card-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -83,3 +90,8 @@
     }
 }
 
+@media screen and (max-height: 550px){
+    .experience .container{
+        margin-bottom: 50px;
+    }
+}
