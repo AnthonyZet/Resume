@@ -15,11 +15,13 @@ function App() {
          <Footer />
         */}
         
+     
         <Navbar />
         <Hero /> 
         <Experience />
         <Education />
          <Footer />
+      
     
     </div>
   );

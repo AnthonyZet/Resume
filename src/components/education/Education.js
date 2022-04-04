@@ -17,7 +17,7 @@ import Tre from './../../assets/4normal.jpg'
             <Roll left>
                 <div className="items-a">
                 <Roll left cascade>
-                    <div className="box item1-capsule">
+                    <div className="box item1">
                         <h2>Vzdělání</h2>
                         <p>2013-2015</p>
                         <p>Highschool of economics and tourism Rantířovská 9 Jihlava</p>
@@ -28,7 +28,7 @@ import Tre from './../../assets/4normal.jpg'
                  </Roll>  
 
                  <Roll right cascade>
-                    <div className="box item1-capsule">
+                    <div className="box item1">
                     <h2>Last Job</h2>
                         <p><strong>Freelancer Německo</strong></p>
                         <p>Welder</p>
@@ -37,7 +37,7 @@ import Tre from './../../assets/4normal.jpg'
                         <p>5 years</p>
                     </div>
                 
-                    <div className="box item1-capsule">
+                    <div className="box item1">
                        <h2><strong>Work experience</strong></h2>
                         <p>Specialist&shop assistant of elektronics</p>
                         <p>Reconstruction of apartment cores</p>
@@ -67,9 +67,7 @@ import Tre from './../../assets/4normal.jpg'
                     <p>Advanced</p>
                 </div>  
                 </Roll>
-                <div className="box items-d">
-                  
-                </div>
+               
             </div>
     
         </div>
