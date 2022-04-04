@@ -9,7 +9,10 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <div className="container">
-            <h1>Enty</h1>
+            <div className="theme-toggle">
+              <h1>Hey</h1>
+              <i class="fas fa-toggle-on"></i>
+            </div>
             <ul className={click ? 'nav active' : 'nav'}>
                 <li className="nav-item"><a href="/">Team</a></li>
                 <li className="nav-item"><a href="/">Work</a></li>

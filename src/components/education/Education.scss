@@ -46,13 +46,22 @@
       & p{
         font-size: 1.5vw;
       }
+      & h2{font-size: 2rem;}
   }
     }
 
     .box{
-      border:  1px solid rgb(255, 255, 255);
-      background-color: rgba(4, 4, 4, 0.379);
+      
+      //border:  1px solid rgb(255, 255, 255);
+      background-color: rgba(4, 4, 4, 0.584);
       padding: 1rem;
+      -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+      box-shadow: 5px 5px 15px 5px #000000;
+      transform: scale(1);
+      transition: 0.6s ease;
+      &:hover{
+        transform: scale(1.03);
+      }
     }
 
     .items-a{
