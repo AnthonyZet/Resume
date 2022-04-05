@@ -21,6 +21,7 @@ function App() {
         <Experience />
         <Education />
          <Footer />
+        
       
     
     </div>

@@ -61,10 +61,10 @@ import Tre from './../../assets/4normal.jpg'
 
                 <div className="box items-c">
                 <h2><strong>Languages</strong></h2>
-                    <p>English language B2</p>
-                    <p>Advanced</p>
-                    <p>German language B2</p>
-                    <p>Advanced</p>
+                    <p>English language</p>
+                    <p>Advanced B2</p>
+                    <p>German language</p>
+                    <p>Advanced B2</p>
                 </div>  
                 </Roll>
                
