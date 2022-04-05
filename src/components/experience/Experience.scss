@@ -2,7 +2,7 @@
 
 .experience .container{
     width: 100%;
-    min-height: 100vh;
+    height: auto;
     max-height: 1080px;
     object-fit: cover;
     background-color: rgb(0, 0, 0);
@@ -30,6 +30,15 @@
     text-align: center;
     font-weight: 900;
     font-size: 1.7rem;
+    margin: 3rem 0;
+    background-size: 140%;
+    transition: all .4s
+}
+
+.btn:hover,
+.btn:active{
+    background-position: 100%;
+    transform: translateX(1rem);
 }
 
 
@@ -106,8 +115,3 @@
     }
 }
 
-@media screen and (max-height: 550px){
-    .experience .container{
-        margin-bottom: 50px;
-    }
-}

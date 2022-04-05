@@ -17,7 +17,11 @@ function App() {
         
      
         
+        <Navbar />
+        <Hero /> 
         <Experience />
+        <Education />
+         <Footer />
         
         
       

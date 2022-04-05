@@ -11,7 +11,7 @@
     grid-area: footer;
   }
 
-  
+ 
   .backgroundTR{
     height: 100vh;
     width: 100vw;
@@ -145,6 +145,12 @@
     .backgroundTR{
       height: 1600px;
     }
+}
+
+@media screen and (max-height: 570px){
+  .backgroundTR{
+    height: 130vh;
+  }
 }
 
 
