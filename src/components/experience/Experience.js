@@ -96,10 +96,8 @@ const Experience = () => {
               skill={dataX[11].skill} 
             />
         </div> 
+              <a href="/" className='btn btn-exp'>➤Visit My GitHub</a>
     </div> 
-    <div className="btn-cover">
-          <a href="/" className='btn'>My GitHub</a>
-    </div>    
 
   </div>
 </div>
