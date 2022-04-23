@@ -9,11 +9,11 @@ import Tre from './../../assets/4normal.jpg'
     class Education extends React.Component {
         render() {
   return (
-    <div>
+    <div className='education-cover'>
 
          <Parallax className='image' bgImage={Tre} strength={200}>
-         <div className="backgroundTR">
-            <div className="container-grid content">
+         <div className="content">
+            <div className="container-grid">
             <Roll left>
                 <div className="items-a">
                 <Roll left cascade>
