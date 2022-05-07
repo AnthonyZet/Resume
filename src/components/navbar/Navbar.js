@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className='navbar'>
         <div className="container">
           
-              <h1>Hey</h1>
+              <h1>AZ</h1>
           
             <ul className={click ? 'nav active' : 'nav'}>
                 <li className="nav-item"><a href="/">Team</a></li>
