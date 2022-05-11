@@ -79,8 +79,8 @@
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  background-image: linear-gradient(to right, black, indigo, green, blue, rgb(0, 41, 130), rgb(25, 108, 160), yellow);
-  background-size: 250%;
+  background-image: linear-gradient(to right, black, rgb(9, 9, 9), #040a36, blue, rgb(81, 255, 7), rgb(0, 41, 130), rgb(25, 108, 160), yellow);
+  background-size: 330%;
   transition: all 0.4s;
 }
 .navbar ul li a:hover, .navbar ul li a:active,
