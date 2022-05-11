@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import {Link} from 'react-router-dom'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 import './Navbar.scss'
 
@@ -7,23 +8,25 @@ const Navbar = () => {
     const handleClick = () => setClick(!click)
 
   return (
-    <div className='navbar'>
+    <nav className='navbar'>
+          
         <div className="container">
-          
               <h1>AZ</h1>
-          
+
             <ul className={click ? 'nav active' : 'nav'}>
-                <li className="nav-item"><a href="/">Team</a></li>
-                <li className="nav-item"><a href="/">Work</a></li>
-                <li className="nav-item"><a href="/">Hackz</a></li>
-                <li className="nav-item"><a href="/">War</a></li>
+              
+              <Link to='/' className='link'>Home</Link>
+              <Link to='/experience' className='link'>Experience</Link>
+              <Link to='/education' className='link'>Education</Link>
+              <Link to='/experience' className='link'>Projects</Link>
+             
              </ul>
                 <div onClick={handleClick} className="hamburger">
                     {click ? (<AiOutlineClose className='icon' />) : (<AiOutlineMenu className='icon' />)}
                 </div>
         </div>
 
-    </div>
+    </nav>
   )
 }
 

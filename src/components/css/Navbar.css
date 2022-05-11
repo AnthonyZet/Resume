@@ -8,43 +8,31 @@
   max-width: 1240px;
   height: 100%;
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.navbar .container h1 {
-  color: #ffd11ebd;
-  background-color: #060606;
+.navbar .container div h1 {
+  color: rgba(255, 209, 30, 0.7411764706);
+  background-color: rgb(6, 6, 6);
   border-radius: 20%;
   padding: 0.5rem;
 }
 
 .navbar .nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.navbar ul li {
-  padding: 1rem;
+.navbar ul .link {
+  margin-right: 1rem;
 }
 
 .hamburger {
   display: none;
   color: wheat;
+  margin-right: 1rem;
 }
 
 .navbar .icon {
@@ -60,28 +48,45 @@
   .hamburger {
     display: block;
   }
+
   .nav {
     position: absolute;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: start !important;
-        -ms-flex-pack: start !important;
-            justify-content: start !important;
+    flex-direction: column;
+    justify-content: start !important;
     top: 90px;
     left: -100%;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 90px);
     background-color: #000;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
     z-index: 2;
   }
+
   .nav.active {
     left: 0;
   }
+
   .nav a {
     font-size: 2rem;
   }
+}
+.navbar ul li a:link, .navbar ul li a:visited,
+.navbar ul .link:link,
+.navbar ul .link:visited {
+  display: inline-block;
+  font-weight: 300;
+  padding: 1rem 2rem;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, black, indigo, green, blue, rgb(0, 41, 130), rgb(25, 108, 160), yellow);
+  background-size: 250%;
+  transition: all 0.4s;
+}
+.navbar ul li a:hover, .navbar ul li a:active,
+.navbar ul .link:hover,
+.navbar ul .link:active {
+  background-position: 100%;
+  color: black;
+  transform: translateX(1rem);
 }

@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -17,13 +16,20 @@
 
 body {
   margin: 0;
-  font-family: 'Kanit', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Kanit", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+  /*overflow-x: hidden;
+  max-width: 100vw;*/
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+strong {
+  color: #d09e0a;
 }
 
 ul {
@@ -46,7 +52,7 @@ h2 {
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  font-family: 'Kamit', sans-serif;
+  font-family: "Kamit", sans-serif;
 }
 
 .btn-outline {
@@ -59,15 +65,16 @@ h2 {
   h1 {
     font-size: 2.5rem;
   }
+
   h2 {
     font-size: 2rem;
   }
 }
-
 @media screen and (max-width: 495px) {
   h1 {
     font-size: 2rem;
   }
+
   h2 {
     font-size: 1.5rem;
   }

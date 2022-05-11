@@ -15,7 +15,7 @@ const Experience = () => {
 
   return (
     
-<div className='experience'>
+<div className='experience' id="techs">
   <div className="container">
         <h2 className='title'>Technologies</h2>
     <div className="card-container">

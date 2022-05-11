@@ -9,7 +9,7 @@ import Tre from './../../assets/4normal.jpg'
     class Education extends React.Component {
         render() {
   return (
-    <div className='education-cover'>
+    <div className='education-cover' id="education">
 
          <Parallax className='image' bgImage={Tre} strength={200}>
          <div className="content">

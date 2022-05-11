@@ -1,8 +1,7 @@
 .education-cover{
-    
     //border: 1px solid red;
+    height: calc(100vh - 90px);
 }
-
 
 .items-a {
     grid-area: header;
@@ -23,7 +22,7 @@
       padding: 2rem;
       color: rgb(244, 241, 234);
       width: 90%;
-      height: 100%;
+      height: calc(100vh - 90px);
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: auto;
