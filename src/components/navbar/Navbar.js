@@ -6,7 +6,12 @@ import './Navbar.scss'
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
-
+    if(click){
+      document.body.style.overflow = 'hidden'
+    } else{
+      document.body.style.overflow = 'scroll'
+    }
+    
   return (
     <nav className='navbar'>
           

@@ -1,3 +1,11 @@
+.title h2 {
+  font-size: 4rem;
+}
+
+.title p {
+  font-size: 1.5rem;
+}
+
 .img-cover {
   display: flex;
   justify-content: center;

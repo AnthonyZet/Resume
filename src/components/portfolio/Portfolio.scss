@@ -18,19 +18,10 @@ Variables
    
   }
 
-  .section {
-    width: 100%;
-   // height: calc(100vh - 100px);
-    margin: 5rem auto;
-    max-width: var(--max-width);
-    color: white;
-  }
-
-
-  
-.port-h2{
+  .port-h2{
     text-align: center;
 }
+
   .underline {
     width: 5rem;
     height: 0.25rem;
@@ -40,9 +31,21 @@ Variables
     margin-right: auto;
   }
 
+
+  .section {
+    width: 100%;
+   // height: calc(100vh - 100px);
+   max-height: 70vh;
+    margin: 5rem auto;
+    max-width: var(--max-width);
+    color: white;
+
+  }
+
   .port-container{
     display: flex;
     justify-content: space-between;
+    height: 100%;
   }
 
   aside{  
