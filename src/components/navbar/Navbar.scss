@@ -26,6 +26,7 @@
 }
 
 
+
 .navbar ul .link{
     margin-right: 1rem;
 }
@@ -43,6 +44,10 @@
 
 .navbar h1, a {
     color: #f4eeff;
+}
+
+.container h1{
+    margin-left: 1rem ;
 }
 
 @media screen and (max-width: 940px){
@@ -100,4 +105,18 @@
         color: black;
         transform: translateX(1rem);
     }
+}
+
+@media screen and (max-height: 500px){
+    .nav{
+        top: 65px;
+        height: 400px;
+    }
+    nav{
+        height: auto!important;  
+    }
+    .nav a{
+        font-size: 5vh;
+    }
+  
 }

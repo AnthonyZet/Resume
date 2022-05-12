@@ -15,10 +15,10 @@ const Navbar = () => {
 
             <ul className={click ? 'nav active' : 'nav'}>
               
-              <Link to='/' className='link'>Home</Link>
-              <Link to='/experience' className='link'>Experience</Link>
-              <Link to='/education' className='link'>Education</Link>
-              <Link to='/portfolio' className='link'>Projects</Link>
+              <Link onClick={handleClick} to='/' className='link'>Home</Link>
+              <Link onClick={handleClick} to='/experience' className='link'>Experience</Link>
+              <Link onClick={handleClick} to='/education' className='link'>Education</Link>
+              <Link onClick={handleClick} to='/portfolio' className='link'>Projects</Link>
              
              </ul>
                 <div onClick={handleClick} className="hamburger">

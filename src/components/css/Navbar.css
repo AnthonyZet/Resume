@@ -44,6 +44,10 @@
   color: #f4eeff;
 }
 
+.container h1 {
+  margin-left: 1rem;
+}
+
 @media screen and (max-width: 940px) {
   .hamburger {
     display: block;
@@ -89,4 +93,19 @@
   background-position: 100%;
   color: black;
   transform: translateX(1rem);
+}
+
+@media screen and (max-height: 500px) {
+  .nav {
+    top: 65px;
+    height: 400px;
+  }
+
+  nav {
+    height: auto !important;
+  }
+
+  .nav a {
+    font-size: 5vh;
+  }
 }

@@ -71,13 +71,29 @@
   .title h2 {
     font-size: 3vw;
   }
+
+  .port-img {
+    width: auto;
+  }
 }
-@media only screen and (max-height: 690px) {
+@media only screen and (max-height: 780px) {
   .img-cover .port-img {
     height: 40vh;
   }
 
   .btn-cover button {
     padding: 2vh 9vh;
+  }
+
+  .title h2 {
+    font-size: 2vw;
+  }
+
+  .title p {
+    font-size: 1.5vw;
+  }
+
+  .btn-cover button {
+    padding: 0.5rem 4rem;
   }
 }

@@ -1,5 +1,5 @@
 .education-cover {
-  height: calc(100vh - 90px);
+  border: 1px solid red;
 }
 
 .items-a {
@@ -23,15 +23,11 @@
   padding: 2rem;
   color: rgb(244, 241, 234);
   width: 90%;
-  height: calc(100vh - 90px);
+  min-height: calc(100vh - 100px);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer";
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
 }
 .container-grid div {
   max-width: 90vw;
