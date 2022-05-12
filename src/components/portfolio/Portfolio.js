@@ -2,6 +2,8 @@ import React from 'react'
 import {useState} from 'react'
 import data from './Data'
 
+import Main from './main/Main'
+
 
 import './Portfolio.scss'
 
@@ -11,7 +13,7 @@ const Portfolio = () => {
     
     
     
-const {id, title, description, url, link} = myData[value];
+const {id, title, description, link} = myData[value];
 
   return (
   <section className='section'>
@@ -31,23 +33,12 @@ const {id, title, description, url, link} = myData[value];
                 <a href="https://github.com/AnthonyZet" className="port-btn">GitHub</a>
                 
             </aside>
-            <main className="main">
-                <div className="title">
-                    <h2>{title}</h2>
-                    <p>{description}</p>
-                    <div className="img-cover">
-                        <img 
-                        className='port-img'
-                        src={require(`./img/learn${value}.png`)}
-                        alt="pic" />
-                    </div>
-                    
-                </div>
-                <article className='btn-cover'>
-                <a href={link}><button className="btn-bot">Enter</button></a>
-                </article>
-               
-            </main>
+            <Main 
+             title={title}
+             description={description}
+             value={value}  
+             link={link}      
+            />
         </div>
 </section>        
   )
