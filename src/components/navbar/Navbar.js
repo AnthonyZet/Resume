@@ -18,7 +18,7 @@ const Navbar = () => {
               <Link to='/' className='link'>Home</Link>
               <Link to='/experience' className='link'>Experience</Link>
               <Link to='/education' className='link'>Education</Link>
-              <Link to='/experience' className='link'>Projects</Link>
+              <Link to='/portfolio' className='link'>Projects</Link>
              
              </ul>
                 <div onClick={handleClick} className="hamburger">
