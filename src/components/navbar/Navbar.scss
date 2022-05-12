@@ -53,12 +53,13 @@
     .nav {
         position: absolute;
         flex-direction: column;
-        justify-content: start !important;
+        //justify-content: start !important;
+        justify-content: space-evenly!important;
         
         top: 90px;
         left: -100%;
         width: 100%;
-        height: calc(100vh - 90px);
+        height:calc(100vh - 90px);
         background-color: #000;
         transition: 0.5s;
        z-index: 2;

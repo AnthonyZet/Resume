@@ -19,18 +19,15 @@ Variables
   }
 
   .section {
-    width: 90vw;
+    width: 100%;
     margin: 5rem auto;
     max-width: var(--max-width);
     color: white;
-   
+ 
   }
 
-  @media screen and (min-width: 992px) {
-    .section {
-      width: 95vw;
-    }
-  }
+
+  
 .port-h2{
     text-align: center;
 }
@@ -158,6 +155,30 @@ transition: 0.7s ease;
   &:hover{
     transform: scale(0.9);
   }
+}
+
+
+@media only screen and (max-width: 1040px) {
+  .section{
+    margin: 0;
+   display: flex;
+   height: calc(100vh - 90px);
+   align-items: center;
+   
+    & .port-container{
+     align-self: center;
+      width: 100%;
+    
+    }
+  }
+  .port-btn{
+    width: 98%;
+    font-size: 2vw;
+  }
+  .title h2{
+    font-size: 3vw;
+  }
+ 
 }
 
  
