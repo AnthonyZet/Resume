@@ -78,7 +78,7 @@
 }
 @media only screen and (max-height: 780px) {
   .img-cover .port-img {
-    height: 40vh;
+    height: 30vh;
   }
 
   .btn-cover button {
@@ -86,11 +86,11 @@
   }
 
   .title h2 {
-    font-size: 2vw;
+    font-size: 5vw;
   }
 
   .title p {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
   }
 
   .btn-cover button {
